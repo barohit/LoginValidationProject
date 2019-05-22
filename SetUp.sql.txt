@@ -1,0 +1,11 @@
+CREATE DATABASE loginvalidationproject;
+
+USE loginvalidationproject;
+
+CREATE TABLE userbase(username varchar(20) NOT NULL, password varchar(40)
+NOT NULL, PRIMARY KEY(username))ENGINE=InnoDB; 
+
+INSERT INTO userbase(username, password)VALUES("barohit", "Password123"),
+("nehaB", "Password456"), ("VandanaR", "Password789"), ("KrishnaZ", "Password101112"), ("JoeSmith", "Password131415"); 
+
+]
